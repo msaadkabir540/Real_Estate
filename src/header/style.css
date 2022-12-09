@@ -1,0 +1,108 @@
+
+.cities-sec{
+    padding: 5px;
+    margin: 5px;
+  
+  }
+  
+  .cities-sec-img {
+    width: 100%;
+    height: 320px;
+  }
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: #e6d578;
+  
+  }
+  
+  .cities-sec:hover .overlay {
+    opacity: 0.8;
+  }
+/* button starts here  */
+
+  .bn1 {
+    display: inline-block;
+    padding: 0.6em 1.7em;
+    /* border: 0.1em solid #222; */
+    border: 0.1em solid #d1bd48;
+    /* background-color: transparent; */
+    background-color: #222;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #d1bd48;
+    text-align: center;
+    transition: all 0.2s;
+    font-weight: 700;
+  }
+  
+  .bn1:hover {
+    color: #000000;
+    background-color: #e6d578;
+    box-shadow: 0px 0px 25px #e6d578;
+    
+    border: 0.1em solid #e6d578;
+  }
+
+
+
+  @media screen  and (max-width:780px) and (min-width:430px){
+    
+    .bn1 {
+       
+        padding: 0.4em 2em;
+        font-weight: 300;
+       
+    }
+    .btn-heading{
+        margin: 0px;
+    }
+    .post-media {
+      position: relative;
+      border: 4px solid #b39e3c;
+      top: 35%;
+  }
+    
+  }
+
+  @media screen and (max-width:425px) and (min-width:320px) {
+    .btn-heading{
+        margin: 0px;
+    }
+    .bn1 {
+        display: inline-block;
+        padding: 5px 18px;
+        border: 0.1em solid #222;
+        background-color: transparent;
+        margin: 0 0.3em 0.3em 0;
+        border-radius: 0.12em;
+        box-sizing: border-box;
+        text-decoration: none;
+        /* font-family: "Roboto", sans-serif; */
+        /* font-weight: 300; */
+        color: #d1bd48;
+        text-align: center;
+        transition: all 0.2s;
+        /* font-weight: 700; */
+        font-size: 10px;
+    }
+  }
+
+
+  .link-text{
+    text-decoration: none;
+    color: #b39e3c;
+  }
