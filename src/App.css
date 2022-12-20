@@ -4,7 +4,7 @@
   /* --font-primary: "Montserrat", sans-serif; */
   /* --font-primary:; */
   /* --font-secondary: "Poppins", sans-serif; */
-/* } */ */
+/* } */ 
 
 *{
 
@@ -1335,13 +1335,13 @@ a.navbar-brand {
           Contact Page Css
 
 ----------------------------------------------- */
-.content{
+/* .content{ */
 /* 
   background-color: #ecf0f3; */
   /* border :1px solid; */
   /* box-shadow:drop-shadow(16px 16px 10px #c6c7c9) ; */
   /* filter:  drop-shadow(16px 16px 10px #c6c7c9); */
-}
+/* } */
 
 
 
